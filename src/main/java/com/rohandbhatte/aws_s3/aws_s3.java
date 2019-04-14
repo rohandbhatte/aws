@@ -10,5 +10,8 @@ package com.rohandbhatte.aws_s3;
  * @author rohan
  */
 public class aws_s3 {
+    public static void main(String args[]){
+        System.out.println("Working on S3");
+    }
     
 }
