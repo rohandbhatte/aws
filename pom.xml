@@ -11,4 +11,18 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     <name>aws</name>
+    <dependencies>
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>bom</artifactId>
+            <version>2.0.0</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>s3</artifactId>
+            <version>2.0.0-preview-6</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
 </project>
